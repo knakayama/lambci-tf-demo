@@ -2,7 +2,7 @@
   "cmd": "./bin/install.sh && ./bin/test.sh && ./bin/deploy.sh",
   "build": "false",
   "branches": {
-    "master": "false",
+    "master": "true",
     "/^release/(dev|stg|prd)$/": "true",
     "/(release/)?(dev|stg|prd)/?": "true"
   }
